@@ -14,5 +14,7 @@ You can either create and connect to a new database or use an existing one.
 
 ### Hints
 >! **Hint 1:** Use `MySqlConnector` to establish a connection to the local database;
+
 >! **Hint 2:** You also need to close the connection using the `Close()` method or by utilizing the `using` statement;
+
 >! **Hint 3:** Creating objects is a non-query operation this command will be executed using the `ExecuteNonQuery()` method;
